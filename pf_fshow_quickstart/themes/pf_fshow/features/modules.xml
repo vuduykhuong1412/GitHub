@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modules>
+	<module>
+		<label>Theme Control Panel</label>
+		<name>ptsthemepanel</name>
+		<prefix>PTS_CP_</prefix>
+		<queries>1</queries>	
+		<table>
+			<table>ptsthemepanel</table>
+		</table>
+	</module>	
+	<module>
+		<label>Mega Menu</label>
+		<name>psmegamenu</name>
+		<prefix>PS_MEGAMENU_</prefix>
+ 		<queries>1</queries>	
+ 		<tables>
+ 			<table>psmegamenu</table>
+ 			<table>psmegamenu_lang</table>	
+ 			<table>psmegamenu_shop</table>
+ 			<table>psmegamenu_widgets</table>
+ 		</tables>
+		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>banner-menu.jpg</image>
+ 		</images>
+	</module>
+	<module>
+		<label>Pts Related Products Block</label>
+		<name>ptsblockrelatedproducts</name>
+		<prefix>pts_relate_pro_</prefix>
+		<queries>0</queries>	
+	</module>
+
+	<module>
+		<label>Categories block</label>
+		<name>blockcategories</name>
+		<prefix>BLOCK_CATEG_</prefix>
+		<queries>0</queries>
+	</module>
+	<module>
+		<label>Top-sellers block</label>
+		<name>blockbestsellers</name>
+		<prefix>PS_BLOCK_BESTSELLERS_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>New products block</label>
+		<name>blocknewproducts</name>
+		<prefix>PS_BLOCK_NEWPRODUCTS_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Specials block</label>
+		<name>blockspecials</name>
+		<prefix>BLOCKSPECIALS_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>CMS block</label>
+		<name>blockcms</name>
+		<prefix>FOOTER_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Ps Slider Layer for your homepage</label>
+		<name>pssliderlayer</name>
+		<prefix>pssliderlayer_</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>pssliderlayer_groups</table>
+			<table>pssliderlayer_slides</table>
+			<table>pssliderlayer_slides_lang</table>
+		</tables>
+		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>slide_home_default1.jpg</image>
+ 			<image>slide_home_default2.jpg</image>
+ 			<image>slide_home2.jpg</image>
+ 			<image>slide2_home2.jpg</image>
+ 			<image>slide1_home3.jpg</image>
+ 			<image>slide2_home3.jpg</image>
+ 			<image>slide1_home4.jpg</image>
+ 			<image>slide2_home4.jpg</image>
+ 			<image>slide3_home4.jpg</image>
+ 	
+ 		</images>
+	</module>
+
+	<module>
+		<label>Leo Blog Management</label>
+		<name>leoblog</name>
+		<prefix>LEOBLOG_</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>leoblogcat</table>
+			<table>leoblogcat_lang</table>
+			<table>leoblogcat_shop</table>
+			<table>leoblog_comment</table>
+			<table>leoblog_blog</table>
+			<table>leoblog_blog_lang</table>
+			<table>leoblog_blog_shop</table>
+		</tables>
+		<imgfolder>views/img/b</imgfolder>
+			<images>
+	 			<image>b-blog-1.jpg</image>
+	 			<image>b-blog-2.jpg</image>
+	 			<image>b-blog-3.jpg</image>
+	 			<image>b-blog-4.jpg</image>
+	 			<image>b-blog-5.jpg</image>
+	 			<image>b-blog-6.jpg</image>
+	 			<image>b-blog-7.jpg</image>
+	 		</images>
+	</module>
+	
+	<module>
+		<label>Pts Map Locator</label>
+		<name>ptsmaplocator</name>
+		<prefix>PTSMAPL_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Ps Page Builder</label>
+		<name>pspagebuilder</name>
+		<prefix>pspagebuilder</prefix>
+		<queries>1</queries>
+		<tables>
+ 			<table>pagebuilderprofile</table>
+ 			<table>pagebuilderprofile_shop</table>
+ 		</tables>
+ 		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>bkg-productlist.jpg</image>
+ 			<image>bkg-productlist2.jpg</image>
+ 			<image>bkg-producttabs.jpg</image>
+ 			<image>bkg-testimonials2.jpg</image>
+ 			<image>block_product.jpg</image>
+ 			<image>block_product2.jpg</image>
+
+ 			<image>block1.jpg</image>
+ 			<image>block2.jpg</image>
+ 			<image>block3.jpg</image>
+			<image>block4.jpg</image>
+
+ 			<image>block1_home2.jpg</image>
+ 			<image>block2_home2.jpg</image>
+ 			<image>block3_home2.jpg</image>
+
+ 			<image>block_footer1_home2.jpg</image>
+ 			<image>block_footer2_home2.jpg</image>
+
+ 			<image>block1_home3.jpg</image>
+ 			<image>block2_home3.jpg</image>
+ 			<image>block3_home3.jpg</image>
+			<image>shopmen_home3.jpg</image>
+ 			<image>shopwomen_home3.jpg</image>
+ 			
+ 			<image>block1_home4.jpg</image>
+ 			<image>block2_home4.jpg</image>
+			<image>block3_home4.jpg</image>
+ 			<image>block4_home4.jpg</image>
+ 			<image>block5_home4.jpg</image>
+ 			<image>block6_home4.jpg</image>
+
+ 			<image>gallery1.jpg</image>
+ 			<image>gallery2.jpg</image>
+ 			<image>gallery3.jpg</image>
+ 			<image>gallery4.jpg</image>
+ 			<image>gallery5.jpg</image>
+ 			<image>gallery6.jpg</image>
+ 			<image>icon_customer_service.png</image>
+ 			<image>icon_money_back.png</image>
+ 			<image>icon_shipping.png</image>
+ 			<image>icon1.png</image>
+ 			<image>icon2.png</image>
+ 			<image>icon3.png</image>
+
+ 		</images>	
+	</module>
+
+	<module>
+		<label>Pts Bootstrap Testimonials</label>
+		<name>ptsbttestimonials</name>
+		<prefix>pts_test</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>ptsbttestimonials</table>
+			<table>ptsbttestimonials_lang</table>
+			<table>ptsbttestimonials_shop</table>
+		</tables>
+		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>sample-1.png</image>
+ 			<image>sample-2.png</image>
+ 			<image>sample-3.png</image>
+ 			<image>sample-4.png</image>
+ 		</images>
+	</module>
+
+	<module>
+		<label>Contact block</label>
+		<name>blockcontact</name>
+		<prefix>BLOCKCONTACT__</prefix>
+		<queries>0</queries>
+	</module>
+</modules>

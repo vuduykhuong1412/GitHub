@@ -1,0 +1,23 @@
+@import "theme_variables";
+
+.boxcarousel {
+	position: relative;
+	.carousel-controls {
+		position: absolute;
+		width: 85px;
+		top: -43px;
+		@include rtl-right(0px);
+		margin-top: 0px;
+	}
+	.carousel-control {
+		@include size(40px,40px);
+		line-height: 38px;
+		@include border-radius(3px);
+		&.left{
+		  left: 0px;
+		}
+		&.right{
+		  right: 0px;
+		}
+	}
+}

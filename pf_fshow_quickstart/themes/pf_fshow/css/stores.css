@@ -1,0 +1,249 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/***********************************************************
+					Stores Page Styles
+************************************************************/
+/* line 9, ../sass/stores.scss */
+#stores #map {
+  width: 100%;
+  height: 447px;
+  margin-bottom: 26px;
+}
+/* line 14, ../sass/stores.scss */
+#stores input#addressInput {
+  display: inline-block;
+  width: 269px;
+}
+/* line 18, ../sass/stores.scss */
+#stores .address-input {
+  float: left;
+  margin-right: 19px;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl #stores .address-input {
+  float: right;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl #stores .address-input {
+  margin-left: 19px;
+  margin-right: inherit;
+}
+@media (max-width: 767px) {
+  /* line 18, ../sass/stores.scss */
+  #stores .address-input {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+/* line 25, ../sass/stores.scss */
+#stores .address-input label {
+  margin-right: 5px;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl #stores .address-input label {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+/* line 29, ../sass/stores.scss */
+#stores .radius-input {
+  float: left;
+  line-height: 23px;
+  margin-right: 20px;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl #stores .radius-input {
+  float: right;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl #stores .radius-input {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+/* line 35, ../sass/stores.scss */
+#stores .radius-input label,
+#stores .radius-input .selector {
+  float: left;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl #stores .radius-input label, .rtl
+#stores .radius-input .selector {
+  float: right;
+}
+/* line 39, ../sass/stores.scss */
+#stores .radius-input label {
+  margin-right: 10px;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl #stores .radius-input label {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+/* line 43, ../sass/stores.scss */
+#stores .radius-input #radiusSelect {
+  width: 78px;
+}
+/* line 47, ../sass/stores.scss */
+#stores .store-content {
+  padding-bottom: 30px;
+}
+/* line 51, ../sass/stores.scss */
+#stores .store-content-select .selector {
+  visibility: hidden;
+  display: none;
+}
+/* line 55, ../sass/stores.scss */
+#stores .store-content-select.active {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid #e1e1e1;
+}
+/* line 60, ../sass/stores.scss */
+#stores .store-content-select.active .selector {
+  visibility: visible;
+  display: block;
+}
+/* line 66, ../sass/stores.scss */
+#stores .store-title {
+  margin-bottom: 16px;
+}
+/* line 69, ../sass/stores.scss */
+#stores label {
+  font-weight: normal;
+  color: #555555;
+}
+/* line 73, ../sass/stores.scss */
+#stores #stores_loader {
+  display: none;
+  margin-left: 5px;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl #stores #stores_loader {
+  margin-right: 5px;
+  margin-left: inherit;
+}
+/* line 77, ../sass/stores.scss */
+#stores #locationSelect {
+  max-width: 356px;
+  visibility: hidden;
+}
+/* line 81, ../sass/stores.scss */
+#stores #stores-table {
+  display: none;
+}
+/* line 84, ../sass/stores.scss */
+#stores #stores-table tbody td {
+  padding: 20px;
+}
+/* line 86, ../sass/stores.scss */
+#stores #stores-table tbody td.num {
+  background: #fbfbfb;
+  width: 46px;
+}
+/* line 91, ../sass/stores.scss */
+#stores #stores-table tbody td.name span {
+  padding-left: 15px;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl #stores #stores-table tbody td.name span {
+  padding-right: 15px;
+  padding-left: inherit;
+}
+@media (max-width: 767px) {
+  /* line 95, ../sass/stores.scss */
+  #stores #stores-table tbody td.name img {
+    display: none;
+  }
+}
+
+/* line 103, ../sass/stores.scss */
+.store-image img {
+  width: 100%;
+  min-width: 100px;
+}

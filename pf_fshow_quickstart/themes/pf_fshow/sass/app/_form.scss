@@ -1,0 +1,81 @@
+//
+// Buttons
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+.btn.button-plus,
+.btn.button-minus {
+  font-size: 14px;
+  line-height: 14px;
+  color: $button-pm-color;
+  padding: 0;
+  background-color: transparent;
+  @include border-radius(0);
+}
+
+.btn {
+  text-transform: uppercase;
+  i.left {
+    @include rtl-margin-right(3px);
+  }
+  i.right{
+    @include rtl-margin-left(3px);
+  }
+}
+
+.form-group {
+  .form-control {
+    padding: 3px 5px;
+    height: auto;
+    box-shadow:none;
+  }
+}
+.btn-default {
+  font-family: $font-family-tertiary;
+  font-size: $font-size-base - 1;
+  font-weight: normal;
+  background:#282828;
+  border:1px solid #282828;
+  padding:12px 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  &:hover, 
+  &:focus, 
+  &.focus, 
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: #fff;
+    background: $theme-color-primary;
+    border-color: $theme-color-primary;
+    @include transition(all 0.4s ease 0s);
+  }
+}
+.btn-newsletter {
+  color: #fff;
+  background-color: $theme-color;
+  border-color: $theme-color;
+  margin: 0!important;
+  padding: 8px 11px;
+  @include size(50px,42px);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 10px;
+  &:hover {
+    background-color: #000;
+    border-color: #000;
+  }
+}
+
+select {
+  @include rtl-background-position-right(center);
+  @include rtl-padding-right(25px);
+  background-image: url(../img/data/arrow-bg.png)!important;
+  background-repeat: no-repeat!important;
+     -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+     position: relative;
+
+}

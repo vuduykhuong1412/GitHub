@@ -1,0 +1,205 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+@media only print {
+  /* line 6, ../sass/print.scss */
+  #header .nav, #header .banner, #header .row > div {
+    display: none;
+  }
+  /* line 9, ../sass/print.scss */
+  #header .row div#header_logo {
+    display: block;
+  }
+
+  /* line 13, ../sass/print.scss */
+  #center_column {
+    width: 100% !important;
+  }
+
+  /* line 16, ../sass/print.scss */
+  #left_column, #right_column {
+    display: none;
+  }
+
+  /* line 19, ../sass/print.scss */
+  .no-print, #quantity_wanted_p > a, a.quick-view {
+    display: none !important;
+  }
+
+  /* line 22, ../sass/print.scss */
+  div.selector, div.selector span, div.selector select {
+    background: none;
+  }
+
+  /* line 25, ../sass/print.scss */
+  #thumbs_list li a:hover, #thumbs_list li a.shown {
+    border-color: #fff;
+  }
+
+  /* line 28, ../sass/print.scss */
+  .product_attributes, .box-cart-bottom {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /* line 31, ../sass/print.scss */
+  .pb-left-column #views_block {
+    margin-top: 10px;
+    width: 278px !important;
+  }
+
+  /* line 35, ../sass/print.scss */
+  #thumbs_list_frame, #thumbs_list {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 40, ../sass/print.scss */
+  #thumbs_list li, #thumbs_list li:first-child {
+    margin: 4px;
+    width: 82px;
+    height: 82px;
+  }
+
+  /* line 46, ../sass/print.scss */
+  #view_scroll_left, #view_scroll_right, .view_scroll_spacer {
+    display: none !important;
+  }
+
+  /* line 49, ../sass/print.scss */
+  .bx-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* line 53, ../sass/print.scss */
+  .bx-viewport {
+    height: auto !important;
+  }
+
+  /* line 56, ../sass/print.scss */
+  #bxslider, #bxslider1, #crossselling_list_car {
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* line 62, ../sass/print.scss */
+  #bxslider1 .product-box {
+    min-height: 200px;
+  }
+
+  /* line 66, ../sass/print.scss */
+  .bx-controls-direction {
+    display: none;
+  }
+
+  /* line 71, ../sass/print.scss */
+  #footer .row > div, #footer .row > section {
+    display: none;
+  }
+  /* line 73, ../sass/print.scss */
+  #footer .row > div#block_contact_infos, #footer .row > section#block_contact_infos {
+    display: block;
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #515151;
+    padding-top: 20px;
+  }
+  /* line 19, ../sass/mixins/_app.scss */
+  .rtl #footer .row > div#block_contact_infos, .rtl #footer .row > section#block_contact_infos {
+    border-right: none;
+    border-left: inherit;
+  }
+
+  /* line 83, ../sass/print.scss */
+  .footer-container #footer h4:after {
+    display: none;
+  }
+}

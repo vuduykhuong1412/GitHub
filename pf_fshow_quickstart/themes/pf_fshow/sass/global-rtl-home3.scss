@@ -1,0 +1,34 @@
+/* style Home3 */
+
+ @charset "UTF-8";
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+ 
+	@import "compass";
+	@import "compass/reset";
+	@import "themes/vars/home3";
+	@import "theme_variables";
+	@import "vars/bootstrap";
+	@import "bootstrap_rtl";
+	@import "font-awesome";
+	@import "app/base";
+	@import "app/block";
+	@import "themes/home3/layout";
+	@import "themes/home3/default";
+	@import "themes/home3/menu";
+	@import "themes/home3/modules";
+	@import "app/product";
+	@import "app/form"; 
+	@import "themes/home3/animation";
+	@import "app/elements";
+	@import "themes/home3/header";
+
+	@import "typo";
+	@import "prestashop-module";
+	@import "prestashop-pages";
+ 

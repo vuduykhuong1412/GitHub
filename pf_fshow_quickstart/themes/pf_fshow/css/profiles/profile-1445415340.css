@@ -1,0 +1,10 @@
+
+/* customize for body */ 
+body { 
+background-image:url(../../img/patterns/pattern13.png) 
+} 
+
+/* customize for body #page */ 
+body #page { 
+font-family:inherit 
+} 

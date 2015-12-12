@@ -1,0 +1,1414 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/* line 4, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-col.default {
+  clear: both;
+}
+
+/* line 8, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-col.primary {
+  clear: both;
+}
+
+/* line 12, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-col.success {
+  clear: both;
+}
+
+/* line 16, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-col.info {
+  clear: both;
+}
+
+/* line 20, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-col.warning {
+  clear: both;
+}
+
+/* line 24, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-col.danger {
+  clear: both;
+}
+
+/* row style */
+/* line 29, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-row.default {
+  clear: both;
+}
+
+/* line 33, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-row.primary {
+  clear: both;
+}
+
+/* line 37, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-row.success {
+  clear: both;
+}
+
+/* line 41, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-row.info {
+  clear: both;
+}
+
+/* line 45, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-row.warning {
+  clear: both;
+}
+
+/* line 49, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-row.danger {
+  clear: both;
+}
+
+/* widget*/
+/* line 56, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.default {
+  clear: both;
+}
+
+/* line 60, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style1 {
+  clear: both;
+}
+
+/* line 64, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style2 {
+  clear: both;
+}
+
+/* line 68, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style3 {
+  clear: both;
+}
+
+/* line 72, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style4 {
+  clear: both;
+}
+
+/* line 76, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style5 {
+  clear: both;
+}
+
+/* line 80, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style6 {
+  clear: both;
+}
+
+/* line 83, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style7 {
+  clear: both;
+}
+
+/* line 86, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.style8 {
+  clear: both;
+}
+
+/* line 91, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.nopadding {
+  clear: both;
+}
+
+/* line 95, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.nomargin {
+  clear: both;
+}
+
+/* line 99, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget.borderbox {
+  clear: both;
+}
+
+/* line 103, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.pts-parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+/* line 108, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-inner > [class*="col-"] {
+  width: 100%!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+/* line 116, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.row-primary {
+  background-color: #9a9a9a;
+  border: 1px solid #626262;
+}
+
+/* line 122, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.row-success {
+  background-color: white;
+  border: 1px solid #eff2e3;
+}
+
+/* line 127, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.row-info {
+  background-color: #f0f9fc;
+  border: 1px solid #b0e1ef;
+}
+
+/* line 132, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.row-warning {
+  background-color: #f9f2cb;
+  border: 1px solid #efdb70;
+}
+
+/* line 137, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.row-danger {
+  background-color: white;
+  border: 1px solid #fab9b9;
+}
+
+/* line 144, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.col-primary {
+  background-color: #888888;
+  border: 1px solid #626262;
+}
+
+/* line 150, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.col-success {
+  background-color: white;
+  border: 1px solid #eff2e3;
+}
+
+/* line 155, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.col-info {
+  background-color: #daf1f8;
+  border: 1px solid #b0e1ef;
+}
+
+/* line 160, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.col-warning {
+  background-color: #f7ecb4;
+  border: 1px solid #efdb70;
+}
+
+/* line 165, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.col-danger {
+  background-color: white;
+  border: 1px solid #fab9b9;
+}
+
+/* line 172, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-images .image-item {
+  position: relative;
+}
+
+/* line 181, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-manufacture.block-borderbox .block_manuf {
+  margin: 10px 0;
+}
+
+/* line 191, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-video .subinfo {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: black;
+  padding: 10px 0;
+}
+
+/* line 201, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-image {
+  position: relative;
+}
+/* line 204, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog_inner {
+  padding: 20px;
+}
+/* line 207, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-meta {
+  font-size: 10px;
+  font-weight: 300;
+  color: #888;
+  line-height: 12px;
+  margin-bottom: 10px;
+}
+/* line 213, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-meta .blog-ctncomment {
+  margin: 0 7px;
+  padding: 0 7px;
+  border-left: 1px solid #e1e1e1;
+  display: inline-block;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-latestblog .blog_container .blog-meta .blog-ctncomment {
+  border-right: 1px solid #e1e1e1;
+  border-left: inherit;
+}
+/* line 219, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-meta a {
+  color: #888;
+}
+/* line 221, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-meta a:hover {
+  color: #f44336;
+}
+/* line 226, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-title {
+  margin-top: 10px;
+  overflow: hidden;
+  height: 45px;
+  font-size: 12px;
+}
+/* line 231, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-title a {
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* line 237, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .blog-shortinfo {
+  display: block;
+  overflow: hidden;
+  max-height: 125px;
+  line-height: 22px;
+}
+/* line 243, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .readmore {
+  padding-top: 10px;
+  text-align: right;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget-latestblog .blog_container .readmore {
+  text-align: left;
+}
+/* line 246, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .readmore a {
+  position: relative;
+  text-decoration: underline;
+  padding: 0 10px;
+  font-size: 12px;
+}
+/* line 251, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .readmore a:after {
+  content: "\f105";
+  font-family: "FontAwesome";
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: -2px;
+}
+/* line 261, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container .created {
+  background-color: #2f2f2f;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-latestblog .blog_container .created {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+/* line 270, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container.list .blog-image .icon {
+  font-size: 36px;
+  margin-top: 15px;
+  display: block;
+}
+/* line 276, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container.list .blog-title {
+  height: auto;
+  max-height: 45px;
+}
+/* line 280, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-latestblog .blog_container.list .blog-shortinfo {
+  height: auto;
+  max-height: 65px;
+}
+
+/* line 288, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#newsletter_block_footer {
+  margin-bottom: 0;
+}
+
+/* line 292, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-newsletter .newsletter-group {
+  margin: 15px 0;
+}
+/* line 294, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-newsletter .newsletter-group .newsletter-input {
+  background-color: #fff;
+  border: 0;
+  padding-left: 110px;
+  height: 42px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-newsletter .newsletter-group .newsletter-input {
+  padding-right: 110px;
+  padding-left: inherit;
+}
+/* line 300, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-newsletter .newsletter-group span {
+  border-right: 1px solid #222222;
+  color: #000000;
+  line-height: 25px;
+  margin: 8px 12px;
+  padding: 0 10px;
+  position: absolute;
+  left: 0;
+  z-index: 6;
+  text-transform: uppercase;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-newsletter .newsletter-group span {
+  border-left: 1px solid #222222;
+  border-right: inherit;
+}
+/* line 108, ../../../../sass/mixins/_app.scss */
+.rtl .widget-newsletter .newsletter-group span {
+  right: 0;
+  left: auto;
+}
+
+/* line 318, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-gallery .block_content {
+  border: 0;
+}
+
+/* line 327, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > li {
+  border-right: 1px solid #e1e1e1;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .list2 > li {
+  border-left: 1px solid #e1e1e1;
+  border-right: inherit;
+}
+/* line 329, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > li.last-in-line {
+  border-right: 0;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .list2 > li.last-in-line {
+  border-left: 0;
+  border-right: inherit;
+}
+/* line 332, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > li.break_line {
+  padding: 0;
+}
+/* line 334, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > li.break_line hr {
+  border-color: #e1e1e1;
+  margin: 0;
+}
+/* line 340, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > div {
+  padding: 15px!important;
+}
+/* line 343, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > div:first-child .right-block {
+  text-align: center;
+}
+/* line 345, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > div:first-child .right-block .price {
+  font-size: 18px;
+}
+/* line 351, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > div:last-child .product-block .name {
+  margin-top: 5px;
+}
+/* line 353, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 > div:last-child .product-block .name .name a {
+  font-size: 13px;
+}
+/* line 359, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 .product-block {
+  padding: 15px;
+}
+/* line 361, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.list2 .product-block .name a {
+  height: auto;
+}
+
+/* line 371, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading {
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "SanFranciscoTextRegular_0";
+  padding: 10px 0;
+  font-weight: 600;
+}
+/* line 377, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div {
+  margin-top: 20px;
+}
+/* line 379, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div .subcategory_link {
+  display: inline;
+}
+/* line 381, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div .subcategory_link li {
+  line-height: 16px;
+  float: left;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget_categories_sub_products .widget-heading > div .subcategory_link li {
+  float: right;
+}
+/* line 384, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div .subcategory_link li a {
+  font-size: 12px;
+  font-family: "SanFranciscoTextRegular_0";
+  line-height: 16px;
+  float: left;
+  font-weight: 400;
+  color: #aaa;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget_categories_sub_products .widget-heading > div .subcategory_link li a {
+  float: right;
+}
+/* line 391, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div .subcategory_link li a:hover {
+  color: #f44336;
+}
+/* line 397, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div .seemore {
+  border: 1px solid #d44d5c;
+  padding: 2px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 8px;
+  width: 17px;
+  height: 15px;
+  color: #d44d5c;
+  font-weight: 600;
+  line-height: 10px;
+  text-align: center;
+  display: block;
+  float: right;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget_categories_sub_products .widget-heading > div .seemore {
+  float: left;
+}
+/* line 409, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .widget-heading > div .seemore:hover {
+  background-color: #d44d5c;
+  color: #fff;
+}
+/* line 416, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .block-item1 {
+  margin-right: -1px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget_categories_sub_products .block-item1 {
+  margin-left: -1px;
+  margin-right: inherit;
+}
+/* line 420, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget_categories_sub_products .block-item2 .block_content {
+  min-height: 357px;
+}
+
+/* line 427, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale {
+  z-index: 81;
+  position: relative;
+}
+/* line 430, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .flashsale-time {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+/* line 115, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .flashsale-time {
+  left: 0;
+  right: auto;
+}
+@media (max-width: 480px) {
+  /* line 430, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+  .widget-flashsale .flashsale-time {
+    top: 40px;
+  }
+}
+/* line 437, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .flashsale-time label {
+  display: block;
+  float: left;
+  padding: 5px 20px;
+  background-position: left 7px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-right: 1px solid #e1e1e1;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .flashsale-time label {
+  float: right;
+}
+/* line 157, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .flashsale-time label {
+  background-position: right 7px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .flashsale-time label {
+  border-left: 1px solid #e1e1e1;
+  border-right: inherit;
+}
+/* line 448, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .pts-flashsale-time {
+  float: left;
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .pts-flashsale-time {
+  float: right;
+}
+/* line 452, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .pts-flashsale-time li {
+  float: left;
+  font-family: "SanFranciscoTextRegular_0";
+  background-color: #fff;
+  color: #bbb;
+  display: block;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-weight: 300;
+  padding: 5px 0;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .pts-flashsale-time li {
+  float: right;
+}
+/* line 467, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .pts-flashsale-time li .countdown_num {
+  font-size: 18px;
+  color: #000;
+}
+/* line 471, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .pts-flashsale-time li:before {
+  position: absolute;
+  right: 0;
+  bottom: inherit;
+  top: 5px;
+  margin: auto;
+  content: "";
+  content: ":";
+  width: 5px;
+  height: 15px;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+/* line 115, ../../../../sass/mixins/_app.scss */
+.rtl .widget-flashsale .pts-flashsale-time li:before {
+  left: 0;
+  right: auto;
+}
+/* line 480, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .pts-flashsale-time li:last-child .countdown_num {
+  color: #d44d5c;
+}
+/* line 483, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .pts-flashsale-time li:last-child:before {
+  display: none;
+}
+/* line 489, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-flashsale .default.products-block {
+  padding: 0;
+}
+
+/* line 501, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+/* line 504, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .widget-heading {
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 600;
+}
+/* line 511, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .block_content {
+  border: 1px solid #e9e9e9;
+}
+/* line 514, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .categories-info-subcategory {
+  text-align: right;
+  padding: 20px 30px 30px 10px;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .widget-categories-info .categories-info-subcategory {
+  text-align: left;
+}
+/* line 517, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .categories-info-subcategory h4 {
+  margin-top: 0;
+}
+/* line 519, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .categories-info-subcategory h4 a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* line 523, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .categories-info-subcategory h4 a:hover {
+  color: #f44336;
+}
+/* line 528, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .categories-info-subcategory ul li a {
+  font-size: 12px;
+  padding: 4px 0;
+  display: block;
+}
+/* line 534, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .image {
+  position: relative;
+}
+/* line 536, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .image:before {
+  content: "";
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid white;
+  top: 50%;
+  left: 0;
+  position: absolute;
+  margin-top: -3px;
+  z-index: 100;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-categories-info .image:before {
+  border-right: 6px solid white;
+  border-left: inherit;
+}
+/* line 108, ../../../../sass/mixins/_app.scss */
+.rtl .widget-categories-info .image:before {
+  right: 0;
+  left: auto;
+}
+/* line 547, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .image img {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 552, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .btn {
+  margin-top: 10px;
+}
+/* line 558, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-categories-info .category_list > li:hover .image img {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+/* line 567, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-subcategories {
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+/* line 170, ../../../../sass/mixins/_app.scss */
+.rtl .widget-subcategories {
+  background-position: 0% 100%;
+}
+@media (min-width: 991px) {
+  /* line 567, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+  .widget-subcategories {
+    min-height: 258px;
+  }
+}
+/* line 573, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-subcategories ul {
+  margin-bottom: 0;
+}
+/* line 575, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-subcategories ul li {
+  font-size: 12px;
+}
+
+/* line 582, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social {
+  margin: 20px 0;
+}
+@media (min-width: 768px) {
+  /* line 582, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+  .social {
+    text-align: right;
+  }
+  /* line 8, ../../../../sass/mixins/_app.scss */
+  .rtl .social {
+    text-align: left;
+  }
+}
+/* line 587, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .block {
+  margin-bottom: 0;
+}
+/* line 590, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .widget-heading {
+  display: inline-block;
+  margin: 0 15px!important;
+  padding: 0;
+}
+/* line 595, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .block_content {
+  display: inline-block;
+}
+/* line 598, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons {
+  margin: 0;
+  text-align: left;
+}
+/* line 8, ../../../../sass/mixins/_app.scss */
+.rtl .social .bo-social-icons {
+  text-align: right;
+}
+/* line 601, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons li {
+  line-height: 20px;
+  display: inline-block;
+}
+/* line 604, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons li a {
+  display: block;
+}
+/* line 606, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons li a span {
+  display: none;
+}
+/* line 609, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons li a > * {
+  display: inline-block;
+}
+/* line 612, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons li a .icon {
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 622, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.social .bo-social-icons li a:hover .icon {
+  border-color: #d44d5c;
+  background-color: #d44d5c;
+  color: #fff;
+}
+
+/* line 635, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .widget-heading {
+  font-size: 36px;
+  line-height: 40px;
+  padding: 10px 0;
+}
+/* line 640, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme {
+  border: 1px solid #e1e1e1;
+}
+/* line 642, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme li {
+  border-top: 1px solid #e1e1e1;
+  padding: 0;
+  position: relative;
+}
+/* line 647, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme li:focus, .widget-promotions .nav-theme li.active {
+  background-color: #f44336;
+}
+/* line 649, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme li:focus:after, .widget-promotions .nav-theme li.active:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #d44d5c;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  margin-top: -5px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-promotions .nav-theme li:focus:after, .rtl .widget-promotions .nav-theme li.active:after {
+  border-right: 5px solid #d44d5c;
+  border-left: inherit;
+}
+/* line 115, ../../../../sass/mixins/_app.scss */
+.rtl .widget-promotions .nav-theme li:focus:after, .rtl .widget-promotions .nav-theme li.active:after {
+  left: -5px;
+  right: auto;
+}
+/* line 660, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme li:focus a, .widget-promotions .nav-theme li.active a {
+  color: #fff;
+}
+/* line 664, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme li a {
+  color: #000;
+  font-weight: 600;
+}
+/* line 668, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotions .nav-theme li:first-child {
+  border-top: 0;
+}
+
+/* line 15, ../../../../sass/bootstrap/mixins/_clearfix.scss */
+.widget-ptssliderlayer:before, .widget-ptssliderlayer:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../sass/bootstrap/mixins/_clearfix.scss */
+.widget-ptssliderlayer:after {
+  clear: both;
+}
+
+/*widget tab*/
+/* Home pagebuilder  */
+/* line 695, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink {
+  background-color: #f6f6f6;
+  display: block;
+}
+/* line 698, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink h5 {
+  display: inline-block;
+  background-color: #333;
+  position: relative;
+  color: #fff;
+  padding: 12px 15px 12px 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 20px 0 0;
+  font-size: 10px;
+}
+/* line 32, ../../../../sass/mixins/_app.scss */
+.rtl .quicklink h5 {
+  padding: 12px 25px 12px 15px;
+}
+/* line 32, ../../../../sass/mixins/_app.scss */
+.rtl .quicklink h5 {
+  margin: 0 0 0 20px;
+}
+/* line 708, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink h5:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-right: 0;
+  border-left: 10px solid #333333;
+}
+/* line 115, ../../../../sass/mixins/_app.scss */
+.rtl .quicklink h5:before {
+  left: -10px;
+  right: auto;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .quicklink h5:before {
+  border-right: 10px solid #333333;
+  border-left: inherit;
+}
+/* line 720, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink ul {
+  display: inline-block;
+}
+/* line 722, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink ul li {
+  position: relative;
+  font-size: 12px;
+  padding: 0 7px 0 12px;
+}
+/* line 32, ../../../../sass/mixins/_app.scss */
+.rtl .quicklink ul li {
+  padding: 0 12px 0 7px;
+}
+/* line 726, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink ul li:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  border: 2px solid #aaa;
+}
+/* line 108, ../../../../sass/mixins/_app.scss */
+.rtl .quicklink ul li:before {
+  right: 0;
+  left: auto;
+}
+/* line 735, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.quicklink ul li:first-child:before {
+  display: none;
+}
+
+/* line 747, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotion {
+  background-color: #282423;
+}
+/* line 749, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotion .title_block {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  border-bottom: 1px solid #fff;
+  padding: 20px 15px;
+}
+/* line 755, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotion .title_block:before {
+  display: none;
+}
+/* line 759, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotion .promotion-list {
+  margin: 0;
+}
+/* line 761, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotion .promotion-list > li {
+  border-left: 1px solid white;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .widget-promotion .promotion-list > li {
+  border-right: 1px solid white;
+  border-left: inherit;
+}
+/* line 763, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-promotion .promotion-list > li .promotion-title {
+  display: none;
+}
+
+/* line 773, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-banner .widget-banner-desc {
+  padding: 25px;
+}
+/* line 775, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-banner .widget-banner-desc .sub-title {
+  font-size: 16px;
+  font-family: "SanFranciscoTextBold_0";
+  text-transform: uppercase;
+}
+
+/* line 785, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-testimonial .testimonials-body {
+  padding: 20px 0;
+}
+/* line 787, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-testimonial .testimonials-body .name {
+  font-weight: 600;
+}
+
+/* line 796, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-tags a {
+  background-color: #f4f4f4;
+  color: #999;
+  font-family: "SanFranciscoTextBold_0";
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 6px 8px;
+}
+/* line 803, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-tags a.tag_level2 {
+  font-size: 11px;
+}
+/* line 806, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-tags a.tag_level3 {
+  font-size: 12px;
+  font-weight: 700;
+}
+/* line 810, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-tags a.tag_level4 {
+  font-size: 13px;
+  font-weight: 700;
+}
+/* line 814, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-tags a:hover {
+  background-color: #d44d5c;
+  color: #fff;
+}
+
+@media (min-width: 991px) {
+  /* line 826, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+  .widget-subcategories_tab .floor-fixed-panel-play:before {
+    position: absolute;
+    left: 16.6667%;
+    bottom: inhert;
+    top: 0;
+    margin: auto;
+    content: "";
+    width: 0;
+    height: 100%;
+    border-left: 1px solid #e1e1e1;
+    z-index: 9;
+  }
+  /* line 108, ../../../../sass/mixins/_app.scss */
+  .rtl .widget-subcategories_tab .floor-fixed-panel-play:before {
+    right: 16.6667%;
+    left: auto;
+  }
+}
+/* line 835, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+.widget-subcategories_tab .category-banner [class*="col-"], .widget-subcategories_tab .category-banner [class^="col-"] {
+  position: static;
+}
+
+/* line 840, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel {
+  position: fixed;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  top: 0;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+/* line 846, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a {
+  padding: 20px;
+  display: block;
+  width: 65px;
+  height: 65px;
+  color: #fff;
+  background-color: #000;
+}
+/* line 851, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active {
+  background-color: #f44336;
+}
+/* line 853, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active:after {
+  position: absolute;
+  top: 50%;
+  content: "";
+  right: -8px;
+  width: 0;
+  height: 0;
+  margin-top: -4px;
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important;
+  border-left: 8px solid #f44336;
+}
+/* line 115, ../../../../sass/mixins/_app.scss */
+.rtl #j-floor-fixed-panel .floor-nav-list a.active:after {
+  left: -8px;
+  right: auto;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl #j-floor-fixed-panel .floor-nav-list a.active:after {
+  border-right: 8px solid #f44336;
+  border-left: inherit;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab1 {
+  background-color: #f44336;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab1:after {
+  border-color: #f44336;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab2 {
+  background-color: #3f51b5;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab2:after {
+  border-color: #3f51b5;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab3 {
+  background-color: #03a9f4;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab3:after {
+  border-color: #03a9f4;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab4 {
+  background-color: #8bc34a;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab4:after {
+  border-color: #8bc34a;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab5 {
+  background-color: #ffe033;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab5:after {
+  border-color: #ffe033;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab6 {
+  background-color: #ff9800;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab6:after {
+  border-color: #ff9800;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab7 {
+  background-color: #795548;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab7:after {
+  border-color: #795548;
+}
+/* line 866, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab8 {
+  background-color: #009688;
+}
+/* line 868, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.active.floor-skin-tab8:after {
+  border-color: #009688;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab1:hover {
+  background-color: #f44336;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab1:hover span {
+  background-color: #f44336;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab2:hover {
+  background-color: #3f51b5;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab2:hover span {
+  background-color: #3f51b5;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab3:hover {
+  background-color: #03a9f4;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab3:hover span {
+  background-color: #03a9f4;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab4:hover {
+  background-color: #8bc34a;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab4:hover span {
+  background-color: #8bc34a;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab5:hover {
+  background-color: #ffe033;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab5:hover span {
+  background-color: #ffe033;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab6:hover {
+  background-color: #ff9800;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab6:hover span {
+  background-color: #ff9800;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab7:hover {
+  background-color: #795548;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab7:hover span {
+  background-color: #795548;
+}
+/* line 879, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab8:hover {
+  background-color: #009688;
+}
+/* line 881, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a.floor-skin-tab8:hover span {
+  background-color: #009688;
+}
+/* line 889, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a:hover span {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  left: 100%;
+  visibility: visible;
+}
+/* line 108, ../../../../sass/mixins/_app.scss */
+.rtl #j-floor-fixed-panel .floor-nav-list a:hover span {
+  right: 100%;
+  left: auto;
+}
+/* line 896, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel .floor-nav-list a span {
+  left: 150%;
+  top: 0;
+  z-index: 99;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  visibility: hidden;
+  white-space: nowrap;
+  padding: 10px 20px 10px 0;
+  height: 65px;
+  position: absolute;
+  line-height: 44px;
+  margin-left: -10px;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+/* line 108, ../../../../sass/mixins/_app.scss */
+.rtl #j-floor-fixed-panel .floor-nav-list a span {
+  right: 150%;
+  left: auto;
+}
+/* line 32, ../../../../sass/mixins/_app.scss */
+.rtl #j-floor-fixed-panel .floor-nav-list a span {
+  padding: 10px 0 10px 20px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl #j-floor-fixed-panel .floor-nav-list a span {
+  margin-right: -10px;
+  margin-left: inherit;
+}
+/* line 912, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+#j-floor-fixed-panel.floor-fixed {
+  top: 150px;
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  /* line 918, ../../../../sass/modules/pspagebuilder/assets/pagebuilder.scss */
+  .tab-v2 > .nav-tabs > li {
+    display: inline-block!important;
+  }
+}

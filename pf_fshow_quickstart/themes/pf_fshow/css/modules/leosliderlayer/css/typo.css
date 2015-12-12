@@ -1,0 +1,1393 @@
+@import url("//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/* line 5, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.layerslider-wrapper {
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 9;
+}
+
+/* line 11, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.rev_slider {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 940px;
+  z-index: 9;
+}
+
+/* line 19, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.bannercontainer {
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* line 28, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.bannercontainer .fullwidthbanner {
+  padding: 0;
+  position: relative;
+}
+
+/* line 33, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.bannercontainer div.caption {
+  cursor: pointer;
+}
+
+/* line 38, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption {
+  z-index: 1;
+}
+
+/* line 42, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.big_white {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Poppins";
+  padding: 3px 4px;
+  padding-top: 1px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  background-color: #000;
+  letter-spacing: 0px;
+}
+
+/* line 59, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.big_orange {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "Poppins";
+  padding: 0px 4px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  background-color: #fb7354;
+  letter-spacing: -1.5px;
+}
+
+/* line 75, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.big_black {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "Poppins";
+  padding: 0px 4px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  background-color: #fff;
+  letter-spacing: -1.5px;
+}
+
+/* line 91, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.medium_grey {
+  position: absolute;
+  color: #666;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Poppins";
+  padding: 2px 4px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+/* line 108, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.small_text {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 18px;
+  font-style: italic;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+
+/* line 123, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.medium_text {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-shadow: none;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+/* line 140, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.large_text {
+  position: absolute;
+  color: #282b2f;
+  text-shadow: none;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 36px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+/* line 156, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.large_black_text {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* line 171, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_large_text {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  letter-spacing: 0px;
+}
+
+/* line 186, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_large_black_text {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+
+/* line 200, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bold_red_text {
+  position: absolute;
+  color: #f44336;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+
+/* line 213, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_large_red_text {
+  position: absolute;
+  color: #f44336;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* line 227, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_large_blue_text {
+  position: absolute;
+  color: #3f51b5;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* line 241, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_large_green_text {
+  position: absolute;
+  color: #8bc34a;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* line 255, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bold_brown_text {
+  position: absolute;
+  color: #a04606;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+
+/* line 269, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bold_green_text {
+  position: absolute;
+  color: #5b9830;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+
+/* line 282, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.small_white {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  padding: 0;
+}
+
+/* line 296, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.medium_white {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 313, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_big_white {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 54px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  padding: 10px 30px;
+  background-color: #7e8e96;
+}
+
+/* line 329, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.very_big_black {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  padding: 0px 4px;
+  padding-top: 1px;
+  background-color: #fff;
+}
+
+/* line 347, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.boxshadow {
+  -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* line 353, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.small_black {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  font-family: "Poppins";
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #7e8e96;
+}
+
+/* line 370, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bg_red {
+  background-color: #fa4141;
+}
+
+/* line 373, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bg_blue {
+  background-color: #6c9;
+}
+
+/* line 376, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bg_orangelite {
+  background-color: #ffd885;
+}
+
+/* line 379, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bg_black {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 382, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.bg_yellow {
+  background-color: #ffc702;
+}
+
+/* line 385, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.noshadow {
+  text-shadow: none;
+}
+
+/* line 389, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption a {
+  color: #ff7302;
+  text-shadow: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+}
+
+/* line 398, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption a:hover {
+  color: #ffa902;
+}
+
+/* line 402, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp_inner_padding {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  max-height: none !important;
+}
+
+/*  btn-slideshowS */
+/* line 410, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-button {
+  padding: 0 15px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  height: 35px;
+  cursor: pointer;
+  color: #fff !important;
+  font-size: 15px;
+  line-height: 35px !important;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+/* line 425, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow {
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 30px;
+  font-size: 12px;
+  font-family: "Poppins";
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* line 435, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.purchase:hover, .btn-slideshow:hover, .btn-slideshow.big:hover {
+  background-position: bottom, 15px 11px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 440, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .btn-slideshow {
+    padding: 4px 8px 3px;
+    line-height: 25px !important;
+    font-size: 11px !important;
+    font-weight: normal;
+  }
+
+  /* line 447, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  a.btn-slideshow {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  /* line 455, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .btn-slideshow {
+    padding: 2px 5px 2px;
+    line-height: 20px !important;
+    font-size: 10px !important;
+  }
+
+  /* line 461, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  a.btn-slideshow {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+  }
+}
+/*  btn-slideshow COLORS */
+/* line 469, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow.green, .btn-slideshow:hover.green, .purchase.green, .purchase:hover.green {
+  background-color: #f44336;
+}
+
+/* line 473, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow.blue, .btn-slideshow:hover.blue, .purchase.blue, .purchase:hover.blue {
+  background-color: #1d78cb;
+}
+
+/* line 477, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow.red, .btn-slideshow:hover.red, .purchase.red, .purchase:hover.red {
+  background-color: #f44336;
+}
+
+/* line 481, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow.orange, .btn-slideshow:hover.orange, .purchase.orange, .purchase:hover.orange {
+  background-color: #ff7700;
+}
+
+/* line 485, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow.darkgrey, .btn-slideshow.grey, .btn-slideshow:hover.darkgrey, .btn-slideshow:hover.grey, .purchase.darkgrey, .purchase:hover.darkgrey {
+  background-color: #555;
+}
+
+/* line 489, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.btn-slideshow.lightgrey, .btn-slideshow:hover.lightgrey, .purchase.lightgrey, .purchase:hover.lightgrey {
+  background-color: #888;
+}
+
+/* SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID  */
+/* line 494, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive .slotholder *, .tp-simpleresponsive img {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+/* SOME CAPTION MODIFICATION AT START  */
+/* line 501, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+}
+
+/* line 510, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive img {
+  max-width: none;
+}
+
+/*  IE8 HACKS */
+/* line 515, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.noFilterClass {
+  filter: none !important;
+}
+
+/* SHADOWS  */
+/* line 520, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannershadow {
+  margin-left: auto;
+  margin-right: auto;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+/* line 529, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannershadow.tp-shadow1 {
+  background: url(../assets/shadow1.png) no-repeat;
+  background-size: 100%;
+  width: 890px;
+  height: 60px;
+  bottom: -30px;
+}
+
+/* line 537, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannershadow.tp-shadow2 {
+  background: url(../assets/shadow2.png) no-repeat;
+  background-size: 100%;
+  width: 890px;
+  height: 110px;
+  bottom: -60px;
+}
+
+/* line 545, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannershadow.tp-shadow3 {
+  background: url(../assets/shadow3.png) no-repeat;
+  background-size: 100%;
+  width: 890px;
+  height: 60px;
+  bottom: -60px;
+}
+
+/* FULLSCREEN VIDEO */
+/* line 554, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.caption.fullscreenvideo {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 562, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.caption.fullscreenvideo iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 567, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.fullscreenvideo {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 575, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-caption.fullscreenvideo iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* NAVIGATION */
+/** BULLETS **/
+/* line 582, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tpclear {
+  clear: both;
+}
+
+/* line 586, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets {
+  z-index: 25;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+}
+
+/* line 599, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.hidebullets {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 606, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar {
+  border: 1px solid #666;
+  border-bottom: 1px solid #444;
+  background: url(../assets/boxed_bgtile.png);
+  height: 40px;
+  padding: 0px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 617, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old {
+  background: url(../assets/navigdots_bgtile.png);
+  height: 35px;
+  padding: 0px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 626, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.round .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/bullet.png) no-Repeat top left;
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+/* line 638, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.round .bullet.last {
+  margin-right: 3px;
+}
+
+/* line 642, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.round-old .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/bullets.png) no-Repeat bottom left;
+  width: 23px;
+  height: 23px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -12px;
+}
+
+/* line 653, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.round-old .bullet.last {
+  margin-right: 0px;
+}
+
+/** SQUARE BULLETS **/
+/* line 658, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.square .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/bullets2.png) no-Repeat bottom left;
+  width: 19px;
+  height: 19px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -10px;
+}
+
+/* line 669, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.square .bullet.last {
+  margin-right: 0px;
+}
+
+/** SQUARE BULLETS **/
+/* line 674, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.square-old .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/bullets2.png) no-Repeat bottom left;
+  width: 19px;
+  height: 19px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -10px;
+}
+
+/* line 685, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.square-old .bullet.last {
+  margin-right: 0px;
+}
+
+/** navbar NAVIGATION VERSION **/
+/* line 690, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/bullet_boxed.png) no-Repeat top left;
+  width: 18px;
+  height: 19px;
+  margin-right: 5px;
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 701, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar .bullet.first {
+  margin-left: 0px !important;
+}
+
+/* line 705, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar .bullet.last {
+  margin-right: 0px !important;
+}
+
+/** navbar NAVIGATION VERSION **/
+/* line 710, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/navigdots.png) no-Repeat bottom left;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 722, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old .bullet.first {
+  margin-left: 0px !important;
+}
+
+/* line 726, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old .bullet.last {
+  margin-right: 0px !important;
+}
+
+/* line 730, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets .bullet:hover, .tp-bullets.simplebullets .bullet.selected {
+  background-position: top left;
+}
+
+/* line 734, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected, .tp-bullets.simplebullets.navbar .bullet:hover, .tp-bullets.simplebullets.navbar .bullet.selected {
+  background-position: bottom left;
+}
+
+/*  TP ARROWS */
+/* line 739, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tparrows {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+}
+
+/* line 750, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tparrows.hidearrows {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 757, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/large_left.png) no-repeat top left;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 766, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/large_right.png) no-repeat top left;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 775, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.round {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/small_left.png) no-repeat top left;
+  width: 19px;
+  height: 14px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -7px;
+}
+
+/* line 787, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.round {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/small_right.png) no-repeat top left;
+  width: 19px;
+  height: 14px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -7px;
+}
+
+/* line 799, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.round-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrow_left.png) no-repeat top left;
+  width: 26px;
+  height: 26px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -13px;
+}
+
+/* line 811, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.round-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrow_right.png) no-repeat top left;
+  width: 26px;
+  height: 26px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -13px;
+}
+
+/* line 823, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.navbar {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/small_left_boxed.png) no-repeat top left;
+  width: 20px;
+  height: 15px !important;
+  min-height: 15px !important;
+  float: left;
+  margin-right: 6px;
+  margin-top: 12px;
+}
+
+/* line 836, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.navbar {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/small_right_boxed.png) no-repeat top left;
+  width: 20px;
+  height: 15px !important;
+  min-height: 15px !important;
+  float: left;
+  margin-left: 6px;
+  margin-top: 12px;
+}
+
+/* line 849, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.navbar-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrowleft.png) no-repeat top left;
+  width: 9px;
+  height: 16px;
+  float: left;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+/* line 861, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.navbar-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrowright.png) no-repeat top left;
+  width: 9px;
+  height: 16px;
+  float: left;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+/* line 873, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.navbar-old:hover, .tp-rightarrow.navbar-old:hover {
+  background-position: left -16px;
+}
+
+/* line 877, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.navbar-old.thumbswitharrow {
+  margin-right: 10px;
+}
+
+/* line 881, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.navbar-old.thumbswitharrow {
+  margin-left: 0px;
+}
+
+/* line 885, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.square {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrow_left2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-right: 0px;
+  margin-top: -9px;
+}
+
+/* line 897, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.square {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrow_right2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-left: 0px;
+  margin-top: -9px;
+}
+
+/* line 909, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.square-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrow_left2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-right: 0px;
+  margin-top: -9px;
+}
+
+/* line 921, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.square-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../assets/arrow_right2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-left: 0px;
+  margin-top: -9px;
+}
+
+/* line 933, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.square-old:hover, .tp-rightarrow.square-old:hover {
+  background-position: left -17px;
+}
+
+/* line 937, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.default {
+  z-index: 20;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../assets/large_left.png);
+  background-position: 0 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  left: -100px;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 950, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-rightarrow.default {
+  z-index: 20;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../assets/large_right.png);
+  background-position: 0 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  right: -100px;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 963, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.bannercontainer:hover .tp-leftarrow.default {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  left: 0;
+}
+/* line 967, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.bannercontainer:hover .tp-rightarrow.default {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  right: 0;
+}
+
+/* line 972, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow.default:hover, .tp-rightarrow.default:hover {
+  background-position: 0 -40px;
+  background-color: transparent;
+}
+
+/* line 976, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-leftarrow:hover, .tp-rightarrow:hover {
+  background-position: 0 -14px;
+  background-color: transparent;
+}
+
+/*  TP THUMBS */
+/* line 982, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.tp-thumbs {
+  z-index: 1000;
+  position: absolute;
+  padding: 3px;
+  background-color: #fff;
+  width: 500px;
+  height: 50px;
+  /* THE DIMENSIONS OF THE THUMB CONTAINER */
+  margin-top: -50px;
+}
+
+/* line 993, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.fullwidthbanner-container .tp-thumbs {
+  padding: 3px;
+}
+
+/* line 997, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.tp-thumbs .tp-mask {
+  width: 500px;
+  height: 50px;
+  /* THE DIMENSIONS OF THE THUMB CONTAINER */
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 1005, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
+  width: 5000px;
+  position: absolute;
+}
+
+/* line 1010, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.tp-thumbs .bullet {
+  width: 100px;
+  height: 50px;
+  /* THE DIMENSION OF A SINGLE THUMB */
+  cursor: pointer;
+  overflow: hidden;
+  background: none;
+  margin: 0;
+  float: left;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /*filter: alpha(opacity=50);  */
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+}
+
+/* line 1030, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bullets.tp-thumbs .bullet:hover, .tp-bullets.tp-thumbs .bullet.selected {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+/* line 1037, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-thumbs img {
+  width: 100%;
+}
+
+/* TP BANNER TIMER */
+/* line 1042, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannertimer {
+  width: 100%;
+  height: 10px;
+  background: url(../assets/timer.png) black;
+  position: absolute;
+  z-index: 200;
+}
+
+/* line 1050, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannertimer.tp-bottom {
+  bottom: 0px !important;
+  height: 3px;
+}
+
+/* line 1054, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-bannertimer.tp-top {
+  top: 0px !important;
+  height: 3px;
+}
+
+/* RESPONSIVE SETTINGS */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 1061, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .responsive .tp-bullets.tp-thumbs {
+    width: 300px !important;
+    height: 30px !important;
+  }
+
+  /* line 1066, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .responsive .tp-bullets.tp-thumbs .tp-mask {
+    width: 300px !important;
+    height: 30px !important;
+  }
+
+  /* line 1071, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .responsive .tp-bullets.tp-thumbs .bullet {
+    width: 60px !important;
+    height: 30px !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  /* line 1077, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .responsive .tp-bullets {
+    display: none;
+  }
+
+  /* line 1081, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+  .responsive .tparrows {
+    display: none;
+  }
+}
+/* BASIC SETTINGS FOR THE BANNER */
+/* line 1086, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive img {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+/* line 1093, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive a {
+  text-decoration: none;
+}
+
+/* line 1097, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1103, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-simpleresponsive > ul > li {
+  list-stye: none;
+  position: absolute;
+  visibility: hidden;
+}
+
+/*  CAPTION SLIDELINK   **/
+/* line 1110, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.caption.slidelink a div, .tp-caption.slidelink a div {
+  width: 10000px;
+  height: 10000px;
+  background: url(../assets/coloredbg.png) repeat;
+}
+
+/* line 1116, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-loader {
+  background: url(../assets/loader.gif) no-repeat 10px 10px;
+  background-color: #fff;
+  margin: -22px -22px;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* line 1131, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-transparentimg {
+  content: "url(../assets/transparent.png)";
+}
+
+/* line 1135, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.tp-3d {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 50%;
+}
+
+/* line 1140, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.caption .btn-default {
+  background-color: #ffc702;
+  color: #000;
+}
+/* line 1143, ../../../../sass/modules/leosliderlayer/css/typo.scss */
+.caption .btn-default:hover {
+  color: #fff;
+}

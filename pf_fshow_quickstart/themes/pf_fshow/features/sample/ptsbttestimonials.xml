@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+</config>
+<tables>
+<table>ptsbttestimonials</table>
+<table>ptsbttestimonials_lang</table>
+<table>ptsbttestimonials_shop</table>
+</tables>
+
+<queries></queries>
+
+</module>

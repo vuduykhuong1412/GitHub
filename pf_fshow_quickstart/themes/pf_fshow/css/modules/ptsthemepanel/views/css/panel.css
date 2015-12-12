@@ -1,0 +1,267 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/* line 3, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.colorpicker {
+  z-index: 9999999!important;
+}
+
+/* line 7, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool input, .paneltool select, .paneltool label {
+  font-size: 11px;
+  padding: 3px 4px;
+}
+
+/* line 12, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool input,
+.paneltool select {
+  width: 110px;
+  border: 0;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 17, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool .clear-bg span {
+  font-size: 15px;
+  margin-left: 5px;
+}
+/* line 19, ../../../../../sass/mixins/_app.scss */
+.rtl .paneltool .clear-bg span {
+  margin-right: 5px;
+  margin-left: inherit;
+}
+
+/* line 21, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.buttons-group {
+  padding: 6px 0;
+}
+
+/* line 24, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-paneltool {
+  position: fixed;
+  top: 0px;
+  transition: all 0.6s;
+  border-right: solid 2px #CCC;
+  -webkit-box-shadow: 1px -1px 3px #888888;
+  box-shadow: 1px -1px 3px #888888;
+  z-index: 89;
+  width: 350px;
+  height: 100%;
+  background: #FFF;
+  left: -351px;
+  font-size: 11px;
+}
+
+/* line 39, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-paneltool > .paneltool {
+  position: relative;
+  clear: both;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* line 47, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-paneltool .pts-panelbutton {
+  border: solid 1px #CCC;
+  background: #FFF;
+  padding: 16px 20px;
+  position: absolute;
+  right: -42px;
+  top: 30px;
+  border-left: none;
+  cursor: hand;
+  cursor: pointer;
+  -webkit-box-shadow: 2px -1px 2px #888888;
+  box-shadow: 2px -1px 2px #888888;
+}
+
+/* line 61, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.themechanger .pts-panelbutton {
+  top: 100px;
+}
+
+/* line 64, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool input {
+  border: solid 1px #CCC;
+}
+
+/* line 68, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool label {
+  width: 110px;
+  font-size: 11px;
+}
+
+/* line 73, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-paneltool.active {
+  left: 0;
+  z-index: 999999;
+}
+
+/* line 78, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool.active .panelbutton {
+  color: red;
+}
+
+/* line 84, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool .panelcontent {
+  background: #FFF;
+}
+
+/* line 91, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool .panel-group .panel-heading {
+  padding: 4px 5px;
+}
+
+/* line 94, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.paneltool .panel-title {
+  font-size: 11px;
+  padding: 2px 12px;
+  font-weight: bold;
+}
+
+/* line 100, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-customize {
+  height: 100%;
+  padding: 15px;
+}
+
+/* line 106, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-customize .bi-wrapper > div {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin: 5px 6px;
+  border: solid 1px #999;
+  cursor: hand;
+  cursor: pointer;
+}
+
+/* line 114, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+.pts-customize .bi-wrapper > div.active {
+  border-color: red;
+}
+
+/* line 119, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+#customize-form .nav-tabs {
+  padding-top: 12px;
+}
+
+/* line 122, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+#customize-form .nav-tabs li {
+  margin: 0;
+  padding: 0 !important;
+}
+
+/* line 127, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+#customize-form .nav-tabs > li > a {
+  padding: 5px 6px;
+  font-size: 11px;
+}
+
+/* line 132, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+#custom-accordionelements .panel,
+#custom-accordionselectors .panel {
+  margin-bottom: 5px;
+}
+
+/* line 136, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+#panethemesettingfrm .pts-paneltitle {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* line 142, ../../../../../sass/modules/ptsthemepanel/views/css/panel.scss */
+#panethemesettingfrm select,
+#saved-files {
+  border: 0;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
+}

@@ -1,0 +1,169 @@
+/**
+ * HEADER CSS STYLES
+ */
+ /* default */
+.header-default{
+    .topbar  {
+     //   @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+        .toogle_content li {
+            a,span {
+                color: #292733;
+                font-family: $font-family;
+                font-size:$font-size-base - 2;
+                text-transform: uppercase;
+            }
+            &.selected,
+            &:hover {
+                a {
+                    &,
+                    &:hover {
+                        color: $link-hover-color;
+                    }
+                }
+            }          
+        }
+        #header_user{
+            .hidden-xs{
+                display: inline-block !important;
+            }
+        }
+    }
+    #header-main {
+        background: $header-bg;
+        line-height: 39px;
+        @media (max-width: $screen-xs-max) {
+            text-align: center;
+        }
+    }
+    .main-menu {
+        z-index: 90;
+    }
+
+    .#{$app-brand-prefix}-megamenu {
+        .megamenu > li {
+          //  @include rtl-border-right(1px solid $base-border-color);
+        }
+    }
+    ##{$app-brand-prefix}-verticalmenu{
+        margin: 10px 0;
+    }
+    .btn-group {
+        .group-title {
+            text-transform: uppercase;
+            font-size: $font-size-base - 2;
+            padding: 0 6px;
+            color: #999;
+            @media (max-width: $screen-xs-max) {
+                padding:0px;
+            }
+            .hidden-xs{
+                display: inline-block !important;
+            }
+            .icon {
+                @include rtl-margin-left(2px);
+            }
+            &:hover{
+                color: $theme-color;
+            }
+        }
+    }
+}
+.header-2{
+    .rightbar{
+        .block-search{
+            display: none;
+        }
+    }
+    .group-userinfo{
+        @media (max-width: $screen-xs-max) {
+            display: none;
+        }
+    } 
+}
+.header-4{
+    background:#ba8670;
+    .inner{
+        text-align: center;
+        #header_logo{
+            display: inline-block;
+        }
+    }
+    .topbar{
+        .group-userinfo{
+            @include rtl-float-right();
+            @media (max-width: $screen-xs-max) {
+                display: none;
+            }
+            #header_user ul.list-inline{
+                border:none;
+                display: block;
+            }
+        }
+        #languages-block-top,#currencies-block-top{
+            @include rtl-float-left();
+        }
+    }
+    #pts-top-menu{
+         text-align: center;
+         .megamenu{
+            float: none;
+            text-align: center;
+         }
+    }
+    #logo-theme{
+        a{
+            margin: 25px 0px;
+        }
+    }
+    .search{
+        padding-bottom: 34px;
+        padding-top: 34px;
+        position:static;
+        @include rtl-float-right();
+        display: inline-block;
+        @media (max-width: $screen-xs-max) {
+            float: none;
+        }
+    }
+    .pts-megamenu .megamenu > li{
+        display: inline-block;
+        float: none;
+    }
+    #cart .mini-cart a{
+        &:before{
+            @include element-absolute(-3px,inherit,12px,right);
+            @include size(22px,27px);
+            background: url("#{$image-theme-base-path}home4/icon_addtocart.png") center center no-repeat;
+        }
+    } 
+    .search{
+        .btn-theme-normal{
+             background: url('#{$image-theme-base-path}home4/icon_search4.png') no-repeat 0 0;
+             @include size(18px,19px);
+             cursor:pointer;
+        }
+        #pts-mini-cart{
+            @include rtl-float-right();
+        }
+        .block-search{
+            @include rtl-text-align-right();  
+            display: inline-block;
+        }
+    }
+}
+.default{
+    #topbar{
+        @media (max-width: $screen-xs-max) {
+            padding-bottom:10px;
+            padding-top:10px;
+        }
+    }
+}
+.topbar{
+    .btn-group{
+         margin: 0 3px;
+        ul li{
+            line-height: 24px;
+        }
+    }
+}

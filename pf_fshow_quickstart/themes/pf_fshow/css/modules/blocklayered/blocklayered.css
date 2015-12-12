@@ -1,0 +1,495 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/* line 3, ../../../sass/modules/blocklayered/blocklayered.scss */
+#enabled_filters {
+  margin: 0 0 10px 0;
+  background: #eee;
+  padding: 6px 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* line 11, ../../../sass/modules/blocklayered/blocklayered.scss */
+#enabled_filters .layered_subtitle {
+  font-size: 13px;
+}
+
+/* line 14, ../../../sass/modules/blocklayered/blocklayered.scss */
+#enabled_filters ul li {
+  padding: 2px 0;
+}
+
+/* line 15, ../../../sass/modules/blocklayered/blocklayered.scss */
+#enabled_filters li a {
+  float: right;
+  color: red;
+  cursor: pointer;
+}
+/* line 8, ../../../sass/mixins/_app.scss */
+.rtl #enabled_filters li a {
+  float: left;
+}
+
+/* line 21, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .radio, #layered_block_left .checkbox {
+  display: inline;
+  background: #26ca28;
+}
+
+/* line 26, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .hiddable a {
+  font-size: 12px;
+  color: #666666;
+}
+
+/* line 31, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .checkbox {
+  border: solid 1px #e1e1e1;
+}
+
+/* line 35, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .layered_close {
+  right: right;
+  padding-right: 5px;
+}
+/* line 115, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left .layered_close {
+  left: right;
+  right: auto;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left .layered_close {
+  padding-left: 5px;
+  padding-right: inherit;
+}
+
+/* line 40, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left span.layered_close a,
+#layered_block_left span.layered_close a {
+  display: block;
+  height: 13px;
+  width: 13px;
+  text-decoration: none;
+  text-indent: -5000px;
+  background: url(img/icon/less.gif) no-repeat 2px 2px;
+}
+
+/* line 48, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left span.closed a {
+  background: url(img/icon/more.gif) no-repeat 2px 2px;
+}
+
+/* line 51, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .layered_subtitle_heading {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* line 57, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .layered_subtitle {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* line 64, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul {
+  clear: both;
+  padding: 5px 0;
+}
+
+/* line 69, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li {
+  padding: 2px 0;
+}
+
+/* line 70, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li label {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+/* line 73, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul {
+  padding: 0;
+  text-transform: uppercase;
+}
+
+/* line 77, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li {
+  list-style-type: none;
+}
+/* line 79, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li div.checker {
+  margin-right: 1px;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left ul li div.checker {
+  margin-left: 1px;
+  margin-right: inherit;
+}
+/* line 81, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li div.checker span {
+  top: 5px;
+}
+
+/* line 89, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left #enabled_filters, #layered_url_filter_block {
+  margin: 20px;
+}
+
+/* line 92, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left #enabled_filters ul li {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left #enabled_filters ul li {
+  margin-right: 0;
+  margin-left: inherit;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left #enabled_filters ul li {
+  padding-right: 0;
+  padding-left: inherit;
+}
+
+/* Style moved form the template to the css  */
+/* line 100, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left #enabled_filters ul li:hover {
+  background: inherit;
+  color: inherit;
+}
+
+/* line 107, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li input.checkbox {
+  vertical-align: middle;
+  margin-right: 13px;
+  margin-top: 1px;
+  float: left;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left ul li input.checkbox {
+  margin-left: 13px;
+  margin-right: inherit;
+}
+/* line 8, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left ul li input.checkbox {
+  float: right;
+}
+
+/* line 113, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left ul li .disabled {
+  color: #666;
+}
+
+/* line 116, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .color-option {
+  border: 1px solid #666666;
+  height: 14px;
+  margin-left: 0;
+  padding: 0;
+  width: 14px;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_block_left .color-option {
+  margin-right: 0;
+  margin-left: inherit;
+}
+
+/* line 123, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .color-option.disable {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+/* line 126, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_block_left .nomargin a {
+  display: inline;
+}
+
+/* line 129, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_form .select {
+  width: 165px;
+}
+
+/* line 132, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_form .color-option {
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  padding: 0;
+  border: 1px solid #666;
+  position: relative;
+  display: inline-block;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_form .color-option {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+
+/* line 143, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_form .color-option.on {
+  border: 1px solid red;
+}
+
+/* line 146, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_form input[type=radio] {
+  margin-left: 2px;
+  vertical-align: middle;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_form input[type=radio] {
+  margin-right: 2px;
+  margin-left: inherit;
+}
+
+/* line 150, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_price_range {
+  margin-left: 7px;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl .layered_price_range {
+  margin-right: 7px;
+  margin-left: inherit;
+}
+
+/* line 153, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_price_range_unit {
+  margin-right: 7px;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl .layered_price_range_unit {
+  margin-left: 7px;
+  margin-right: inherit;
+}
+
+/* line 156, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_slider_container {
+  margin: 10px 0 10px 9px;
+  width: 85%;
+}
+/* line 32, ../../../sass/mixins/_app.scss */
+.rtl .layered_slider_container {
+  margin: 10px 9px 10px 0;
+}
+
+/* line 160, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_slider {
+  margin-top: 15px;
+  height: 3px;
+  border: 0;
+  background: #ccd6dd !important;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 167, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_input_range_min {
+  width: 30px;
+}
+
+/* line 170, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_input_range_max {
+  width: 40px;
+}
+
+/* line 175, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_list {
+  display: block;
+  cursor: pointer;
+}
+
+/* line 179, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_list:hover {
+  font-weight: bold;
+}
+
+/* line 182, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_ajax_loader p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* line 186, ../../../sass/modules/blocklayered/blocklayered.scss */
+.hide-action {
+  text-align: right;
+  display: block;
+  cursor: pointer;
+}
+/* line 8, ../../../sass/mixins/_app.scss */
+.rtl .hide-action {
+  text-align: left;
+}
+
+/* line 191, ../../../sass/modules/blocklayered/blocklayered.scss */
+.hide-action:hover {
+  font-weight: bold;
+}
+
+/* line 194, ../../../sass/modules/blocklayered/blocklayered.scss */
+#layered_form div div ul {
+  overflow-x: auto;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+/* line 19, ../../../sass/mixins/_app.scss */
+.rtl #layered_form div div ul {
+  margin-right: 0;
+  margin-left: inherit;
+}
+
+/* line 199, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_filter {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+/* line 204, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_filter label {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #666666;
+  font-family: "Lato", sans-serif;
+  line-height: normal;
+  display: inline-block;
+}
+/* line 212, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_filter .layered_subtitle {
+  font-size: 1.2 em;
+}
+/* line 215, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_filter:last-child {
+  border-bottom: none;
+}
+
+/* line 219, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_price {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+/* line 8, ../../../sass/mixins/_app.scss */
+.rtl .layered_price {
+  float: right;
+}
+
+/* line 226, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_slider_container .ui-slider-handle {
+  background: #f1ba27 !important;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border: 0;
+  margin-left: -5px !important;
+  top: -6px !important;
+  cursor: pointer;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 237, ../../../sass/modules/blocklayered/blocklayered.scss */
+.layered_slider_container .ui-slider-range {
+  background: black !important;
+  height: 5px;
+}

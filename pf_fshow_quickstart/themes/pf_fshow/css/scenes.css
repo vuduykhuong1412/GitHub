@@ -1,0 +1,241 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/********************************************************
+			Scenes Styles
+********************************************************/
+/* line 8, ../sass/scenes.scss */
+#scenes .popover-button span {
+  display: block;
+  font-size: 28px;
+  text-align: center;
+}
+/* line 12, ../sass/scenes.scss */
+#scenes .popover-button span:before {
+  content: "\f0fe";
+  font-family: "FontAwesome";
+  display: block;
+  vertical-align: 5px;
+}
+
+/* line 20, ../sass/scenes.scss */
+.thumbs_banner {
+  margin: 10px auto;
+  padding: 0;
+  height: 62px !important;
+  width: 100%;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+/* line 27, ../sass/scenes.scss */
+.thumbs_banner .space-keeper {
+  width: 21px;
+  float: left;
+  display: block;
+  height: 100%;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl .thumbs_banner .space-keeper {
+  float: right;
+}
+/* line 32, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.prev {
+  display: none;
+  width: 21px;
+  background: #fbfbfb;
+  text-decoration: none;
+  color: #555555;
+}
+/* line 38, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.prev:before {
+  font-family: "FontAwesome";
+  content: "\f053";
+  vertical-align: middle;
+  padding-top: 35px;
+  padding-left: 5px;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl .thumbs_banner .space-keeper a.prev:before {
+  padding-right: 5px;
+  padding-left: inherit;
+}
+/* line 46, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.next {
+  float: left;
+  display: block;
+  width: 21px;
+  background: #fbfbfb;
+  text-decoration: none;
+  color: #555555;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl .thumbs_banner .space-keeper a.next {
+  float: right;
+}
+/* line 53, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.next:before {
+  font-family: "FontAwesome";
+  content: "\f054";
+  vertical-align: middle;
+  padding-top: 35px;
+  padding-left: 5px;
+}
+/* line 19, ../sass/mixins/_app.scss */
+.rtl .thumbs_banner .space-keeper a.next:before {
+  padding-right: 5px;
+  padding-left: inherit;
+}
+
+/* line 64, ../sass/scenes.scss */
+#scenes_list {
+  overflow: hidden;
+  float: left;
+  width: 828px;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl #scenes_list {
+  float: right;
+}
+/* line 68, ../sass/scenes.scss */
+#scenes_list ul {
+  list-style-type: none;
+}
+/* line 71, ../sass/scenes.scss */
+#scenes_list li {
+  float: left;
+}
+/* line 8, ../sass/mixins/_app.scss */
+.rtl #scenes_list li {
+  float: right;
+}
+/* line 74, ../sass/scenes.scss */
+#scenes_list a {
+  display: block;
+}
+
+/* line 80, ../sass/scenes.scss */
+#scenes a.popover-button {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+}
+/* line 85, ../sass/scenes.scss */
+#scenes .popover {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-color: #e1e1e1;
+}
+/* line 90, ../sass/scenes.scss */
+#scenes .product-image-container,
+#scenes .product-name {
+  margin-bottom: 15px;
+}
+/* line 93, ../sass/scenes.scss */
+#scenes div.description {
+  margin-bottom: 15px;
+}
+/* line 96, ../sass/scenes.scss */
+#scenes .button-container {
+  margin-bottom: 15px;
+}
+/* line 98, ../sass/scenes.scss */
+#scenes .button-container a {
+  text-decoration: none;
+}
+/* line 102, ../sass/scenes.scss */
+#scenes .price {
+  margin-bottom: 10px;
+}
+@media (max-width: 1199px) {
+  /* line 79, ../sass/scenes.scss */
+  #scenes {
+    display: none;
+  }
+}
